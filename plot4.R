@@ -1,3 +1,4 @@
+library(dplyr)
 # upload data setand unzip it only if doesn't
 # filter for relevant date, and save to a file to gain time 
 if (file.exists("data-set.csv") == FALSE){
